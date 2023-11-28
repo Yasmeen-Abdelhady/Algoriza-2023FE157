@@ -1,0 +1,19 @@
+$PrimaryColor: #2F80ED;
+$LogoColor: #1B1F2D;
+$TitleColor: #181818;
+$Gray1: #333333;
+$Gray2: #4F4F4F;
+$Gray3: #333333;
+$Gray6: #F2F2F2;
+$Warning: #FCEFCA;
+
+.PrimaryButton{
+    background-color: $PrimaryColor;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 12px 18px;
+    border: 0;
+    outline: none;
+}
