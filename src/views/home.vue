@@ -5,16 +5,18 @@
     <div class="covid">
       Check the latest COVID-19 restrictions before you travel. <a href="#">Learn more</a>
     </div>
+    <DreamVacation />
   </div>
 </template>
 
 <script>
 import Navbar from "../components/layout/NavbarSec.vue";
 import Header from "../components/home/Header.vue";
+import DreamVacation from "../components/home/DreamVacation.vue"
 
 export default {
     name: "homeView",
-    components:{Navbar , Header}
+    components:{Navbar , Header , DreamVacation}
 }
 </script>
 
@@ -29,6 +31,7 @@ export default {
   margin-bottom: 30px;
   a{
     color: $PrimaryColor;
+    text-decoration: none;
   }
 }
 </style>
