@@ -6,17 +6,27 @@
       Check the latest COVID-19 restrictions before you travel. <a href="#">Learn more</a>
     </div>
     <DreamVacation />
+    <Inspiration />
+    <popularHotels />
+    <AppSec />
+    <DiscoverPlaces /> 
   </div>
+  <Footer />
 </template>
 
 <script>
 import Navbar from "../components/layout/NavbarSec.vue";
 import Header from "../components/home/Header.vue";
-import DreamVacation from "../components/home/DreamVacation.vue"
+import DreamVacation from "../components/home/DreamVacation.vue";
+import Inspiration from "../components/home/Inspiration.vue";
+import popularHotels from "../components/home/popularHotels.vue";
+import AppSec from "../components/home/AppSec.vue";
+import DiscoverPlaces from "../components/home/DiscoverPlaces.vue";
+import Footer from "../components/layout/Footer.vue";
 
 export default {
     name: "homeView",
-    components:{Navbar , Header , DreamVacation}
+    components:{Navbar , Header , DreamVacation , Inspiration , popularHotels , AppSec , DiscoverPlaces , Footer}
 }
 </script>
 

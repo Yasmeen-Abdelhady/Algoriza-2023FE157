@@ -1,13 +1,12 @@
 <template>
   <div class="sec_title">
-    <h3>Enjoy your dream vacation</h3>
-    <p>Plan and book our perfect trip with expert advice, travel tips, destination information and  inspiration from us</p>
+    <h3>Popular hotels</h3>
   </div>
   <div class="row mb-5">
     <div class="col-lg-3 col-md-6 col-12">
       <div class="card">
         <div class="card-image">
-          <img src="../../assets/images/sea.png" alt="sea"/>
+          <img src="../../assets/images/Rec8.png" alt="sea"/>
         </div>
         <div class="card-body">
           <div class="card-title">Australia</div>
@@ -18,36 +17,36 @@
     <div class="col-lg-3 col-md-6 col-12">
       <div class="card">
         <div class="card-image">
-          <img src="../../assets/images/vacation 1.png" alt="sea"/>
+          <img src="../../assets/images/Rectangle 9.png" alt="sea"/>
         </div>
         <div class="card-body">
-          <div class="card-title">Japan</div>
-          <div class="card-text">1278 properties</div>
+          <div class="card-title">Australia</div>
+          <div class="card-text">2246 properties</div>
         </div>
       </div>
-    </div> 
+    </div>
     <div class="col-lg-3 col-md-6 col-12">
       <div class="card">
         <div class="card-image">
-          <img src="../../assets/images/Rectangle 10.png" alt="sea"/>
+          <img src="../../assets/images/Rec10.png" alt="sea"/>
         </div>
         <div class="card-body">
-          <div class="card-title">New Zealand</div>
-          <div class="card-text">480 properties</div>
+          <div class="card-title">Australia</div>
+          <div class="card-text">2246 properties</div>
         </div>
       </div>
-    </div> 
+    </div>
     <div class="col-lg-3 col-md-6 col-12">
       <div class="card">
         <div class="card-image">
-          <img src="../../assets/images/Rectangle 11.png" alt="sea"/>
+          <img src="../../assets/images/Rec11.png" alt="sea"/>
         </div>
         <div class="card-body">
-          <div class="card-title">Greece</div>
-          <div class="card-text">320 properties</div>
+          <div class="card-title">Australia</div>
+          <div class="card-text">2246 properties</div>
         </div>
       </div>
-    </div> 
+    </div>
   </div>
 </template>
 
@@ -76,10 +75,11 @@ export default {
   .card-image{
     overflow: hidden;
     border-radius: 8px;
-    height: 220px;
+    height: 300px;
     width: 100%;
     img{
       width: 100%;
+      height: 100%;
     }
   }
   .card-body{
